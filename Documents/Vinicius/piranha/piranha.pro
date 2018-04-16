@@ -1,6 +1,6 @@
 #-------------------------------------------------
 #
-# Project created by QtCreator 2018-04-16T10:00:49
+# Project created by QtCreator 2018-04-16T11:42:26
 #
 #-------------------------------------------------
 
@@ -8,7 +8,7 @@ QT       += core gui
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
-TARGET = teste
+TARGET = piranha
 TEMPLATE = app
 
 # The following define makes your compiler emit warnings if you use
@@ -24,8 +24,12 @@ DEFINES += QT_DEPRECATED_WARNINGS
 
 
 SOURCES += main.cpp\
-        mainwindow.cpp
+        dialog.cpp \
+    agente.cpp \
+    ambiente.cpp
 
-HEADERS  += mainwindow.h
+HEADERS  += dialog.h \
+    agente.h \
+    ambiente.h
 
-FORMS    += mainwindow.ui
+FORMS    += dialog.ui
