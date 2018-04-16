@@ -26,10 +26,12 @@ DEFINES += QT_DEPRECATED_WARNINGS
 SOURCES += main.cpp\
         dialog.cpp \
     agente.cpp \
-    ambiente.cpp
+    ambiente.cpp \
+    vetor.cpp
 
 HEADERS  += dialog.h \
     agente.h \
-    ambiente.h
+    ambiente.h \
+    vetor.h
 
 FORMS    += dialog.ui
